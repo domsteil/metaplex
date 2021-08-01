@@ -1,0 +1,4 @@
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+import BN from 'bn.js';
+export declare function redeemParticipationBidV2(vault: PublicKey, safetyDepositTokenStore: PublicKey, destination: PublicKey, safetyDeposit: PublicKey, fractionMint: PublicKey, bidder: PublicKey, payer: PublicKey, metadata: PublicKey, masterEdition: PublicKey, originalMint: PublicKey, transferAuthority: PublicKey, acceptPaymentAccount: PublicKey, tokenPaymentAccount: PublicKey, newMint: PublicKey, edition: BN, instructions: TransactionInstruction[]): Promise<void>;
+//# sourceMappingURL=redeemParticipationBidV2.d.ts.map

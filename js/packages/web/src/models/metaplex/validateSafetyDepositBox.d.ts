@@ -1,0 +1,3 @@
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+export declare function validateSafetyDepositBox(vault: PublicKey, metadata: PublicKey, safetyDepositBox: PublicKey, safetyDepositTokenStore: PublicKey, tokenMint: PublicKey, auctionManagerAuthority: PublicKey, metadataAuthority: PublicKey, payer: PublicKey, instructions: TransactionInstruction[], edition: PublicKey, whitelistedCreator: PublicKey | undefined, store: PublicKey, printingMint?: PublicKey, printingMintAuthority?: PublicKey): Promise<void>;
+//# sourceMappingURL=validateSafetyDepositBox.d.ts.map

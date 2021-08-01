@@ -1,0 +1,3 @@
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+export declare function redeemFullRightsTransferBid(vault: PublicKey, safetyDepositTokenStore: PublicKey, destination: PublicKey, safetyDeposit: PublicKey, fractionMint: PublicKey, bidder: PublicKey, payer: PublicKey, instructions: TransactionInstruction[], masterMetadata: PublicKey, newAuthority: PublicKey, auctioneerReclaimIndex?: number): Promise<void>;
+//# sourceMappingURL=redeemFullRightsTransferBid.d.ts.map

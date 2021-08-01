@@ -1,0 +1,3 @@
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+export declare function deprecatedRedeemParticipationBid(vault: PublicKey, safetyDepositTokenStore: PublicKey, destination: PublicKey, safetyDeposit: PublicKey, fractionMint: PublicKey, bidder: PublicKey, payer: PublicKey, instructions: TransactionInstruction[], tokenMint: PublicKey, participationPrintingAccount: PublicKey, transferAuthority: PublicKey, acceptPaymentAccount: PublicKey, tokenPaymentAccount: PublicKey): Promise<void>;
+//# sourceMappingURL=deprecatedRedeemParticipationBid.d.ts.map
